@@ -4,11 +4,13 @@ def turn_count(board)
       if ((position == "X") || (position == "O"))
       count += 1
       end
-  end
+    end
   return count
 end
 
 
 def current_player
+  
 end
+
 board = [" ", " ", " ", " ", " ", " ", "X", "O", "X"]
